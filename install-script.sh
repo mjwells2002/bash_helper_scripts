@@ -16,7 +16,7 @@ fname_noarg=${fname%.sh}
 #copy script to /usr/local/bin without .sh extension
 cp $fname /usr/local/bin/$fname_noarg
 #change permissions on new file
-chmod 775 /usr/local/bin/$fname_noarg
+chmod 755 /usr/local/bin/$fname_noarg
 
 #user feedback
 echo $fname installed to /usr/local/bin/$fname_noarg
