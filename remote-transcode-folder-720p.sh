@@ -24,7 +24,7 @@ do
     filename=$(basename $file)
     echo trancodeing $filename to $out_folder/$filename-720p-trancode.mp4
     
-    $remotessh -C mkdir $remote_tmp_folder
+    $remotessh -C mkdir -p $remote_tmp_folder
     scp $file $remote_host_string:$remote_tmp_folder$filename
     $remotessh -C ffmpeg -i $remote_tmp_folder$filename -s 1280x720 -c:v libx264 -c:a aac -crf 21 -preset slow $remote_tmp_folder$filename-720p-transcode.mp4
     scp $remote_host_string:$remote_tmp_folder$filename-720p-transcode.mp4 $out_folder/
