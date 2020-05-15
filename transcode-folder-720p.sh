@@ -1,6 +1,6 @@
 #!/bin/bash
-#transcode-folder-480p.sh
-#usage transcode-folder-480p in-folder/ out-folder/
+#transcode-folder-720p.sh
+#usage transcode-folder-720p in-folder/ out-folder/
 
 in_folder=$1
 out_folder=$2
