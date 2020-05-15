@@ -1,6 +1,12 @@
 # bash_helper_scripts
 
-a small colection of scripts i use on my laptop (arch linux) in order to make tasks i do often eaiser
+a small colection of scripts i use on my laptop in order to make tasks i do often eaiser
+
+All scripts have been tested on
+```
+$ uname -r
+5.6.11-arch1-1
+```
 
 ## rdocker.sh
 
