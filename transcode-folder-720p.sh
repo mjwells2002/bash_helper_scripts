@@ -10,7 +10,7 @@ do
   if [ -f "${file}" ]
   then
     filename=$(basename $file)
-    echo trancodeing $filename to $out_folder/$filename-480p-trancode.mp4
+    echo trancodeing $filename to $out_folder/$filename-720p-trancode.mp4
     ffmpeg -i $file -s 1280x720 -c:v libx264 -c:a aac -crf 21 -preset slow $out_folder/$filename-480p-transcode.mp4
   fi
 done
