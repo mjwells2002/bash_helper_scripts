@@ -88,6 +88,7 @@ $ echo $piCluster
 pi@pi-1;pi@pi-2;pi@pi-3
 ```
 varible should be multiple ssh strings in a semicolon seperated string
+
 example usage:
 ```
 $ bulkshell piCluster "sudo apt-get upgrade -y"
