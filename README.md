@@ -79,7 +79,9 @@ same as transcode-folder-1080p but it uses a remote ssh server to transcode the 
 ## bulkshell.sh
 
 ssh to a "cluster" of hosts
+
 requires tmux
+
 requires a "cluster" varible set IE
 ```
 $ echo $piCluster
